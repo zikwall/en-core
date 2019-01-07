@@ -20,7 +20,8 @@
     "zikwall/user": "~0.1.0",
     "zikwall/admin": "~0.1.0",
     "zikwall/content": "~0.1.0",
-    "zikwall/ui": "~0.1.0"
+    "zikwall/ui": "~0.1.0",
+    "zikwall/encore-base-theme": "~0.1.0"
   },
   "autoload": {
         "psr-4": {
