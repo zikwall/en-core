@@ -28,11 +28,7 @@
       "zikwall\\encore\\": ""
     }
   },
-  "extra": {
-    "installer-types": ["encore-core-module", "encore-core-theme"],
-    "installer-paths": {
-      "vendor/zikwall/en-core/modules/{$name}/": ["type:encore-core-module"],
-      "vendor/zikwall/en-core/themes/{$name}/": ["type:encore-core-theme"]
-    }
+  "config": {
+    "sort-packages": true
   }
 }
