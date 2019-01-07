@@ -24,8 +24,15 @@
     "zikwall/encore-base-theme": "~0.1.0"
   },
   "autoload": {
-        "psr-4": {
-            "zikwall\\encore\\": ""
-        }
+    "psr-4": {
+      "zikwall\\encore\\": ""
     }
+  },
+  "extra": {
+    "installer-types": ["encore-core-module", "encore-core-theme"],
+    "installer-paths": {
+      "vendor/zikwall/en-core/modules/{$name}/": ["type:encore-core-module"],
+      "vendor/zikwall/en-core/themes/{$name}/": ["type:encore-core-theme"]
+    }
+  }
 }
