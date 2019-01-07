@@ -1,0 +1,30 @@
+{
+  "name": "zikwall/en-core",
+  "description": "enCore yii2 application system",
+  "keywords": ["framework", "yii2", "core", "module", "zikwall", "system"],
+  "type": "yii2-extension",
+  "support": {
+    "issues": "https://github.com/zikwall/en-core/issues?state=open",
+    "source": "https://github.com/zikwall/en-cre"
+  },
+  "authors": [
+    {
+      "name": "Andrey Kapitonov",
+      "email": "andrey.kapitonov.96@gmall.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "zikwall/encore-installer": "~0.0.1",
+    "zikwall/core": "~0.1.0",
+    "zikwall/user": "~0.1.0",
+    "zikwall/admin": "~0.1.0",
+    "zikwall/content": "~0.1.0",
+    "zikwall/ui": "~0.1.0"
+  },
+  "autoload": {
+        "psr-4": {
+            "zikwall\\encore\\": ""
+        }
+    }
+}
